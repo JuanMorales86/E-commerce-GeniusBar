@@ -11,7 +11,7 @@
   font-family: "Montserrat", sans-serif, Poppins;
   box-sizing: border-box;
   text-decoration: none;
-  *list-style-type: none;
+  list-style-type: none;
   *max-width: 100%; /*probando se me desacomodan los contenedores cada vez q le pongo contenido*/
 }
 
@@ -20,6 +20,8 @@ body{
   text-decoration: none;
   list-style-type: none;
 }
+
+//PAGINA PRODUCTOS-X1
 
 .productox1{
   width: 100%;
@@ -49,6 +51,15 @@ body{
   height: 250px;
 }
 
+.button1{
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+
+}
+
+//FIN PAGINA PRODUCTOS-X1
+
 .navbar-brand .logoNav{
   width:30%;
   
@@ -66,6 +77,7 @@ body{
 .grid-container {
   display: grid;
   row-gap: 2px;
+  max-width: 100%;
   background-color: $backc-princi; /*color de fondo del body*/
   grid-template-columns: 100%; /*originalmente lo dividi 50% 50%*/
   grid-template-rows: auto auto auto auto auto auto auto;
@@ -383,12 +395,14 @@ header {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+   
 
 }
 
 .container-m{
   width: 100%;
   padding: 10px 40px;
+  
 }
 
 .container-m .swiper {
@@ -416,6 +430,7 @@ header {
   min-width: 200px;
   overflow: hidden;
   transform-origin: center;
+  max-width: 100%;
 }
 
 .container-m .swiper-slide img:hover {
@@ -577,7 +592,7 @@ text-align: justify;
   }
 }
 /*FIN PAGINA PRINCIPAL INDEX*/
-/**TERMINA MI DESKTOP**/
+
 
 /**PAGINA CONTACTO**/
 .son__containerC {
@@ -1236,7 +1251,7 @@ header {
 }
 /**FIN PAGINA SERVICIO TECNICO**/
 
-
+/**TERMINA MI DESKTOP**/
 
 /*INICIO MEDIA QUERYS*/
 /**RESPONSIVE**/
